@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "video.d.ts",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/(pages)/Blog/page.jsx",
+    "src/Components/Hero.jsx",
+    "src/Components/Contact.jsx",
+    "src/Components/decorations/roots.jsx",
+    "src/Components/Navbar.jsx",
+    "src/Components/card-hover-effect.jsx",
+    "src/app/(pages)/le-cabinet/page.jsx",
+    "src/Components/ui/Nosmissions.jsx",
+    "src/Components/ui/Valeurs.jsx",
+    "src/Components/ui/container-scroll-animation.jsx",
+    "src/lib/utils.js",
+    "src/app/(pages)/contact/page.jsx",
+    "src/app/(pages)/nos-traitements/page.jsx",
+    "src/app/(pages)/parcours-patients/page.jsx",
+    "src/app/page.jsx",
+    "src/Components/CardGrid.jsx"
+  ],
+  "exclude": ["node_modules"]
+}

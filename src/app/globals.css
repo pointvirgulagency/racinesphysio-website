@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #6fc2a7, #6fc2a7);
+}
+
+.hero-img {
+  background-image: url("/images/hero.svg");
+  background-repeat: no-repeat;
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Responsive */
+
+/* @media (max-width: 1200px) {
+  .nav {
+    padding: 36px 40px;
+  }
+} */
