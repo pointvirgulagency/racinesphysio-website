@@ -11,7 +11,6 @@ import BeforeFooter from "@/Components/BeforeFooter";
 import CardGrid from "@/Components/CardGrid";
 import { FaArrowRight } from "react-icons/fa6";
 import ScrollToTop from "@/Components/ui/ScrollToTop";
-
 function page() {
   const sectionAnimation = {
     initial: { opacity: 0, y: 30 },
