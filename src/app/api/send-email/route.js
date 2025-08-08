@@ -37,7 +37,7 @@ export async function POST(request) {
 
       mailOptions = {
         from: `"${firstName} ${lastName}" <${process.env.EMAIL_SERVER_USER}>`,
-        to: process.env.EMAIL_TO,
+        to: ["contact@racinesphysio.com", "cabinet.racines20@gmail.com"],
         replyTo: email,
         subject: `Nouveau Candidat: ${firstName} ${lastName}`,
         html: `
@@ -58,7 +58,7 @@ export async function POST(request) {
 
       mailOptions = {
         from: `"${name}" <${process.env.EMAIL_SERVER_USER}>`,
-        to: process.env.EMAIL_TO,
+        to: ["contact@racinesphysio.com", "cabinet.racines20@gmail.com"],
         replyTo: email,
         subject: `Nouveau Client: ${name} - ${formData.get("subject")}`,
         html: `
