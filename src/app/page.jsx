@@ -365,7 +365,7 @@ const LeCabinet = () => {
         {/* testimonials */}
         <motion.div
           {...sectionAnimation}
-          className="relative z-20 flex flex-col xl1440:mt-44 -mt-56"
+          className="relative z-20 flex flex-col xl1440:mt-44 -mt-36"
         >
           <div className="flex flex-col xl1440:w-1/2 xl1440:gap-4 justify-center items-center m-auto text-center">
             <h2 className="text-main font-bold xl1440:text-5xl text-2xl/7 xl1440:leading-[3.5rem] w-10/12">
