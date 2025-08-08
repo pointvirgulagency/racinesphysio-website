@@ -355,7 +355,7 @@ const LeCabinet = () => {
             </p>
             <Link href="/nos-traitements">
               <button className="bg-main text-white px-12 xl1440:py-3 py-2 rounded-full text-base xl1440:ml-24 hover:bg-hoverBtn transition-colors font-medium shadow-lg shadow-shadowColor/10">
-                Explorez nos traitements
+                Explorez tous nos traitements
               </button>
             </Link>
           </div>

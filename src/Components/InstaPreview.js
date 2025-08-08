@@ -18,11 +18,11 @@ const InstagramSection = () => {
             <h2 className="xl1440:text-5xl text-2xl md:text-5xl font-semibold mb-6 mt-14 md:leading-[3.5rem]">
               Prolongez l&apos;expérience Racines, en ligne
             </h2>
-            <h5 className="xl1440:text-2xl text-lg font-semibold mb-4 opacity-90">
+            <h5 className="xl1440:text-2xl text-lg font-semibold mb-4 opacity-90 text-white xl1440:text-main">
               Des conseils, de l&apos;inspiration et des ressources utiles, où
               que vous soyez.
             </h5>
-            <p className="xl1440:text-lg text-white mb-8 opacity-90">
+            <p className="xl1440:text-lg text-gray-50 mb-8 opacity-80">
               Suivez notre actualité sur Instagram : conseils en physiothérapie,
               témoignages de patients, coulisses du cabinet… Et explorez notre
               blog &apos;Équilibre & Savoir&apos; : des articles, vidéos et

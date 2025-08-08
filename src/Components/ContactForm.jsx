@@ -233,7 +233,7 @@ export default function ContactSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className="grid grid-cols-1 md:grid-cols-5">
+          <div className=" xl1440:grid grid-cols-1 md:grid-cols-5 flex flex-col-reverse">
             {/* Form Info Sidebar */}
             <div className="bg-main text-white p-8 md:col-span-2">
               <h3 className="text-2xl font-bold mb-5 xl1440:mt-20 mt-8">
