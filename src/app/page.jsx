@@ -261,7 +261,7 @@ const LeCabinet = () => {
         <div className="absolute hidden bottom-[-85rem] xl1440:block xl1900:hidden">
           <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/png/homedeskbg.jpg"
+              src="/images/homedeskbg.svg"
               alt="Hero Background"
               width={1900}
               height={800}
