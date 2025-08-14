@@ -3,21 +3,26 @@
 import React from "react";
 import Image from "next/image";
 import Navbar from "@/Components/Navbar";
-import MapCard from "@/Components/ui/container-scroll-animation";
-import InstaPreview from "@/Components/InstaPreview";
+
 import { useScroll, motion, useTransform } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import Nosmissions from "@/Components/ui/Nosmissions";
 import Valeurs from "@/Components/ui/Valeurs";
 import Speciality from "@/Components/ui/Speciality";
-import Faq from "@/Components/Faq";
-import Button from "@/Components/ui/Button";
-import TestimonialSlider from "@/Components/TestimonialSlider";
-import Footer from "@/Components/Footer";
-import BeforeFooter from "@/Components/BeforeFooter";
-import { Scroll } from "lucide-react";
+
 import ScrollToTop from "@/Components/ui/ScrollToTop";
+
+import dynamic from "next/dynamic";
+
+const MapCard = dynamic(() =>
+  import("@/Components/ui/container-scroll-animation")
+);
+const TestimonialSlider = dynamic(() =>
+  import("@/Components/TestimonialSlider")
+);
+const Faq = dynamic(() => import("@/Components/Faq"));
+const BeforeFooter = dynamic(() => import("@/Components/BeforeFooter"));
 
 const LeCabinet = () => {
   // This ref is for the hero text animation
@@ -185,7 +190,7 @@ const LeCabinet = () => {
           {/* Hero Background Image for desk */}
           <div className="hidden xl1440:block w-full h-[180vh] absolute top-0 z-10 bg-gradient-to-br from-[#6FC2A7] to-[#6FC2A7]">
             <Image
-              src="/images/metahuman.svg"
+              src="/images/png/metahuman.png"
               alt="Hero Background"
               fill
               className="object-contain object-right"
@@ -235,7 +240,6 @@ const LeCabinet = () => {
               width={1900}
               height={800}
               className="object-contain object-center"
-              priority
             />
           </div>
         </div>
@@ -249,7 +253,6 @@ const LeCabinet = () => {
               width={1900}
               height={800}
               className="object-contain object-center"
-              priority
             />
           </div>
         </div>
@@ -258,7 +261,7 @@ const LeCabinet = () => {
         <div className="absolute hidden bottom-[-85rem] xl1440:block xl1900:hidden">
           <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/homedeskbg.svg"
+              src="/images/png/homedeskbg.jpg"
               alt="Hero Background"
               width={1900}
               height={800}
