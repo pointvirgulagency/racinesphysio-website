@@ -234,7 +234,7 @@ const LeCabinet = () => {
         {/* Behind Hero bg, Shadow Background */}
               <div className="absolute bottom-[-50rem] hidden xl1440:block">          <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/png/greenbg.png"
+              src="/images/greenbg-hq.webp"
               alt="Hero Background"
               width={1900}
               height={800}
@@ -247,7 +247,7 @@ const LeCabinet = () => {
         <div className="absolute bottom-[-85rem] hidden xl1900:block">
           <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/png/homebg.png"
+              src="/images/homebg-hq.webp"
               alt="Hero Background"
               width={1900}
               height={800}
@@ -260,7 +260,7 @@ const LeCabinet = () => {
         <div className="absolute hidden bottom-[-85rem] xl1440:block xl1900:hidden">
           <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/png/homedeskbg.png"
+              src="/images/homedeskbg-hq.webp"
               alt="Hero Background"
               width={1900}
               height={800}
