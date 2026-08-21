@@ -232,10 +232,9 @@ const LeCabinet = () => {
         </motion.div>
 
         {/* Behind Hero bg, Shadow Background */}
-        <div className="hidden">
-          <div className="w-full h-screen relative z-10">
+              <div className="absolute bottom-[-50rem] hidden xl1440:block">          <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/greenbg.svg"
+              src="/images/png/greenbg.png"
               alt="Hero Background"
               width={1900}
               height={800}
@@ -245,10 +244,10 @@ const LeCabinet = () => {
         </div>
 
         {/* Home Background 1990px */}
-        <div className="hidden">
+        <div className="absolute bottom-[-85rem] hidden xl1900:block">
           <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/homebg.svg"
+              src="/images/png/homebg.png"
               alt="Hero Background"
               width={1900}
               height={800}
@@ -258,10 +257,10 @@ const LeCabinet = () => {
         </div>
 
         {/* Home Background for xl1440 */}
-        <div className="hidden">
+        <div className="absolute hidden bottom-[-85rem] xl1440:block xl1900:hidden">
           <div className="w-full h-screen relative z-10">
             <Image
-              src="/images/homedeskbg.svg"
+              src="/images/png/homedeskbg.png"
               alt="Hero Background"
               width={1900}
               height={800}
