@@ -62,11 +62,11 @@ const LeCabinet = () => {
 
   // NEW: Define a reusable animation for sections on scroll
   const sectionAnimation = {
-    initial: { opacity: 0, y: 30 },
-    whileInView: { opacity: 1, y: 0 },
-    transition: { duration: 1.2, ease: "easeInOut" },
-    viewport: { once: true }, // Animation will only play once
-  };
+  initial: { opacity: 1, y: 12 },
+  whileInView: { opacity: 1, y: 0 },
+  transition: { duration: 0.35, ease: "easeOut" },
+  viewport: { once: true, amount: 0.05 },
+};
 
   const buttonContainerVariants = {
     hidden: {},
