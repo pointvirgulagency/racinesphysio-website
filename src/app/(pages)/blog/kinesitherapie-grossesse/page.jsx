@@ -1,30 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 import Navbar from "@/Components/Navbar";
 import ScrollToTop from "@/Components/ui/ScrollToTop";
 import BeforeFooter from "@/Components/BeforeFooter";
-
-export const metadata = {
-  title: "Kinésithérapie pendant la grossesse : guide pratique",
-  description:
-    "Douleurs lombaires, bassin, posture : découvrez comment la kinésithérapie peut accompagner la grossesse avec des soins adaptés à chaque situation.",
-  alternates: {
-    canonical: "/blog/kinesitherapie-grossesse",
-  },
-  robots: {
-    index: false,
-    follow: true,
-  },
-  openGraph: {
-    title: "Kinésithérapie pendant la grossesse : guide pratique",
-    description:
-      "Découvrez comment la kinésithérapie peut accompagner les changements et certaines douleurs liés à la grossesse.",
-    url: "/blog/kinesitherapie-grossesse",
-    type: "article",
-    locale: "fr_MA",
-  },
-};
 
 export default function PregnancyPhysiotherapyArticle() {
   const jsonLd = {
