@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "/blog/mal-de-dos-kinesitherapie",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
   openGraph: {
@@ -18,6 +18,21 @@ export const metadata: Metadata = {
     url: "/blog/mal-de-dos-kinesitherapie",
     type: "article",
     locale: "fr_MA",
+    images: [
+      {
+        url: "/images/blog/mal-de-dos-kinesitherapie.webp",
+        width: 1600,
+        height: 900,
+        alt: "Évaluation de la mobilité du dos en kinésithérapie",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mal de dos : quand consulter un kinésithérapeute ?",
+    description:
+      "Découvrez quand consulter pour une douleur du dos et quels signes nécessitent un avis médical rapide.",
+    images: ["/images/blog/mal-de-dos-kinesitherapie.webp"],
   },
 };
 
