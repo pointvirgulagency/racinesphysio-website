@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "/blog/kinesitherapie-grossesse",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
   openGraph: {
@@ -18,6 +18,21 @@ export const metadata: Metadata = {
     url: "/blog/kinesitherapie-grossesse",
     type: "article",
     locale: "fr_MA",
+    images: [
+      {
+        url: "/images/blog/kinesitherapie-grossesse.webp",
+        width: 1600,
+        height: 900,
+        alt: "Séance de kinésithérapie adaptée pendant la grossesse",
+      },
+    ],
+  },
+    twitter: {
+    card: "summary_large_image",
+    title: "Kinésithérapie pendant la grossesse : guide pratique",
+    description:
+      "Découvrez comment la kinésithérapie peut accompagner les changements et certaines douleurs liés à la grossesse.",
+    images: ["/images/blog/kinesitherapie-grossesse.webp"],
   },
 };
 
