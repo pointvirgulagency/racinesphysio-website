@@ -8,8 +8,8 @@ const articles = [
     title: "Kinésithérapie pendant la grossesse",
     description:
       "Découvrez quand consulter et comment un accompagnement adapté peut aider pendant la grossesse.",
-    image: "/images/blog/blogone.png",
-    alt: "Accompagnement en kinésithérapie pendant la grossesse",
+    image: "/images/blog/kinesitherapie-grossesse.webp",
+    alt: "Femme enceinte accompagnée pendant un exercice de mobilité adapté",
   },
   {
     slug: "reeducation-sportive",
@@ -17,8 +17,8 @@ const articles = [
     title: "Rééducation sportive après une blessure",
     description:
       "Les étapes d’une reprise progressive : bilan, renforcement et gestes spécifiques au sport.",
-    image: "/images/blog/1.png",
-    alt: "Exercice de rééducation sportive",
+    image: "/images/blog/reeducation-sportive.webp",
+    alt: "Patient réalisant un exercice de rééducation sportive encadré",
   },
   {
     slug: "mal-de-dos-kinesitherapie",
@@ -26,8 +26,8 @@ const articles = [
     title: "Mal de dos : quand consulter ?",
     description:
       "Comprendre le rôle du bilan et reconnaître les signes qui nécessitent un avis médical.",
-    image: "/images/blog/3.png",
-    alt: "Accompagnement en kinésithérapie pour le mal de dos",
+    image: "/images/blog/mal-de-dos-kinesitherapie.webp",
+    alt: "Kinésithérapeute guidant un patient pendant un exercice du dos",
   },
 ];
 
