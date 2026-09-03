@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 
 import Navbar from "@/Components/Navbar";
@@ -19,6 +20,8 @@ export default function PregnancyPhysiotherapyArticle() {
     datePublished: "2026-09-03",
     dateModified: "2026-09-03",
     inLanguage: "fr-MA",
+    image:
+      "https://www.racinesphysio.com/images/blog/kinesitherapie-grossesse.webp",
     mainEntityOfPage:
       "https://www.racinesphysio.com/blog/kinesitherapie-grossesse",
     author: {
@@ -69,6 +72,17 @@ export default function PregnancyPhysiotherapyArticle() {
             <span>Rédaction : Cabinet Racines</span>
             <span>•</span>
             <span>6 min de lecture</span>
+          </div>
+
+          <div className="mb-10 overflow-hidden rounded-3xl">
+            <Image
+              src="/images/blog/kinesitherapie-grossesse.webp"
+              alt="Femme enceinte accompagnée pendant un exercice de mobilité adapté"
+              width={1600}
+              height={900}
+              className="w-full h-auto object-cover"
+              priority
+            />
           </div>
 
           <div className="prose prose-lg max-w-none">
