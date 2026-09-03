@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "/blog/reeducation-sportive",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
   },
   openGraph: {
@@ -18,6 +18,21 @@ export const metadata: Metadata = {
     url: "/blog/reeducation-sportive",
     type: "article",
     locale: "fr_MA",
+    images: [
+      {
+        url: "/images/blog/reeducation-sportive.webp",
+        width: 1600,
+        height: 900,
+        alt: "Exercice guidé pendant une séance de rééducation sportive",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rééducation sportive après une blessure",
+    description:
+      "Découvrez les étapes d’une rééducation sportive progressive, du bilan jusqu’à la reprise sécurisée de l’activité.",
+    images: ["/images/blog/reeducation-sportive.webp"],
   },
 };
 
