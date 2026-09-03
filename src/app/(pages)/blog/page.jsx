@@ -56,13 +56,13 @@ function BlogPage() {
             </p>
           </div>
 
-          <div className="w-full relative bg-[url(/images/blog/blogone.png)] mt-28">
+          <div className="w-full relative bg-[url(/images/blog/kinesitherapie-grossesse.webp)] mt-28">
             <div className="xl1440:w-[70%] w-[90%] m-auto p-8 bg-white rounded-3xl my-6">
               <div className="flex justify-between gap-10 flex-col xl1440:flex-row">
                 <div className="h-60 xl1440:h-96 rounded-3xl">
                   <Link href="/blog/kinesitherapie-grossesse">
                     <Image
-                      src="/images/blog/blogone.png"
+                      src="/images/blog/kinesitherapie-grossesse.webp"
                       alt="Femme enceinte accompagnée pendant une séance de kinésithérapie adaptée"
                       width={800}
                       height={600}
