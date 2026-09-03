@@ -6,16 +6,16 @@ const articles = [
     title: "Rééducation sportive après une blessure",
     description:
       "Bilan, récupération, renforcement et tests fonctionnels : découvrez les étapes d’une reprise sportive progressive.",
-    image: "/images/blog/1.png",
-    alt: "Patient réalisant un exercice de rééducation sportive",
+    image: "/images/blog/reeducation-sportive.webp",
+    alt: "Patient réalisant un exercice de rééducation sportive encadré",
     href: "/blog/reeducation-sportive",
   },
   {
     title: "Mal de dos : quand consulter un kinésithérapeute ?",
     description:
       "Douleur lombaire, raideur ou gêne persistante : découvrez quand consulter et quels signes ne doivent pas être ignorés.",
-    image: "/images/blog/3.png",
-    alt: "Séance de kinésithérapie consacrée à la mobilité du dos",
+    image: "/images/blog/mal-de-dos-kinesitherapie.webp",
+    alt: "Kinésithérapeute guidant un patient pendant un exercice du dos",
     href: "/blog/mal-de-dos-kinesitherapie",
   },
 ];
