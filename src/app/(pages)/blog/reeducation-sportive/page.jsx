@@ -6,6 +6,7 @@ import { ArrowLeft } from "lucide-react";
 import Navbar from "@/Components/Navbar";
 import ScrollToTop from "@/Components/ui/ScrollToTop";
 import BeforeFooter from "@/Components/BeforeFooter";
+import RelatedArticles from "@/Components/RelatedArticles";
 
 export default function SportsRehabilitationArticle() {
   const jsonLd = {
@@ -353,6 +354,8 @@ export default function SportsRehabilitationArticle() {
               </li>
             </ul>
           </div>
+
+          <RelatedArticles currentSlug="reeducation-sportive" />
 
           <div className="mt-12 pt-8 border-t border-gray-200 flex flex-wrap gap-4">
             <Link
